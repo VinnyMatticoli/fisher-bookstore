@@ -7,7 +7,7 @@ import Routes from "./Routes.js";
 export default class App extends Component
 { render ()
   {
-    {
+    
     return (<div className="App Container">;
       <Navbar bg="light" expand="lg">
         <Navbar.Brand>
@@ -30,10 +30,10 @@ export default class App extends Component
             </NavItem>
           </Nav>
         </Navbar.Collapse>
-        
+
       </Navbar>
       <Routes />
     </div> 
   );
-  }
+  
 }}

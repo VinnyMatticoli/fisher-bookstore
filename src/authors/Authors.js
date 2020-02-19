@@ -4,8 +4,8 @@ import "./Authors.css";
 export default function Authors(){
     return (
         <div className="Authors">
-            <div className="lander">
-                <h3>Authors</h3>
+            <div className="Authors">
+                <h1>Authors</h1>
                 <p>Welcome To The Author Section.</p>
             </div>
         </div>

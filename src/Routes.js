@@ -9,6 +9,7 @@ return (
     <Switch>
         <Route path="/" exact component={Home}  />
         <Route path="/Books" component={Books}  />
+        <Route path="/Authors" component={Authors}  />
     </Switch>
 );
 }
