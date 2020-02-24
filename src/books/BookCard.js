@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-boostrap";
+import { Card, Button } from "react-bootstrap";
 
 export function BookCard(props){
     return (
