@@ -6,11 +6,9 @@ export function AuthorCard(props){
     return(
         <div className="display">
             <h3>Authors</h3>
-            <CardColumns>
-                {props.author.map(b =>(
-                <AuthorCard author={b} key={b.id}  />
+                {props.authors.map(a =>(
+                <p>{a.author}</p>
                 ))}
-            </CardColumns>
         </div>
     );
 }
