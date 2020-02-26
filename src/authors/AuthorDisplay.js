@@ -1,6 +1,6 @@
 import React from "react";
-import { AuthorCard } from "./AuthorCard";
-import {CardColumns} from "react-bootstrap";
+//import { AuthorCard } from "./AuthorCard";
+//import {CardColumns} from "react-bootstrap";
 
 export function AuthorDisplay(props){
     return(
