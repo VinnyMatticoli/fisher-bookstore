@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Authors.css";
-import { AuthorDisplay } from "./AutorDisplay";
+import { AuthorDisplay } from "./AuthorDisplay";
 
 export default class Authors extends Component{
     constructor(props){
@@ -34,6 +34,7 @@ export default class Authors extends Component{
                 ]
         }
     };
+
     render(){
     return (
         <div className="Authors">
