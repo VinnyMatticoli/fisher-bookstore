@@ -9,7 +9,7 @@ export function AuthorCard(props){
             <Card.Body>
                 <Card.Title>{props.author.firstName} {props.author.lastName} </Card.Title>
                 <Card.Text>Author Age: {props.author.age}</Card.Text>
-                <Button variant="warning">Click for nothing lol</Button>
+                <Button variant="warning">Click for something</Button>
                 <br></br>
             </Card.Body>
         </Card>
