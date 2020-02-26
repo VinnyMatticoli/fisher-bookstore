@@ -1,14 +1,14 @@
 import React from "react";
-import { BookCard } from "./BookCard";
+import { AuthorCard } from "./AuthorCard";
 import {CardColumns} from "react-bootstrap";
 
-export function BookDisplay(props){
+export function AuthorCard(props){
     return(
         <div className="display">
-            <h3>Books</h3>
+            <h3>Authors</h3>
             <CardColumns>
-                {props.book.map(b =>(
-                <BookCard book={b} key={b.id}  />
+                {props.author.map(b =>(
+                <AuthorCard author={b} key={b.id}  />
                 ))}
             </CardColumns>
         </div>
